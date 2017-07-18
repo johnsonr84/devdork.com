@@ -230,10 +230,10 @@ Author: Ahmed Beheiry
 			16 - Typed Text in Home Section
 	----------------------------------------------------- */
 	$(".typed-element").typed({
-    	strings: ["Creative.", "Front End Developer.", "Website Designer.", "Problem Solver."],
+    	strings: ["Front End Developer.", "Website Designer.", "Problem Solver."],
     	typeSpeed: 10,
     	loop:true,
-    	backDelay: 2000
+    	backDelay: 3000
     });
 
     /* ---------------------------------------------------
@@ -250,7 +250,7 @@ Author: Ahmed Beheiry
 		prevArrow: '<button type="button" class="slick-prev"><span class="fa fa-long-arrow-left"></span></button>',
 		nextArrow: '<button type="button" class="slick-next"><span class="fa fa-long-arrow-right"></span></button>',
 		autoplay: true,
-		autoplaySpeed: 4000,
+		autoplaySpeed: 3000,
 	});
 
 	/* 17-b- Fade Slider Hero  */

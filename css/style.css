@@ -632,7 +632,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
     ( 9 ) Start Fun Facts Section
 * ------------------------------------- */
 #fun-facts {
-	background: #333 url("http://placehold.it/1920x1280");
+	background: #333 url(../img/rob2.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -921,7 +921,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
     ( 15 ) Start Testimonials Section
 * ------------------------------------- */
 #testimonials {
-	background: #333 url("http://placehold.it/1920x1280");
+	background: #333 url("../img/presentation2.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -1015,7 +1015,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
     ( 17 ) Start Contact Section
 * ------------------------------------- */
 #contact {
-	background: #333 url("http://www.utahbusiness.com/wp-content/uploads/2016/02/View-of-Salt-Lake-City-1260x500.png");
+	background: #333 url("../img/contact.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
