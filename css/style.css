@@ -76,6 +76,13 @@ p.para {
 	letter-spacing: 1px;
 	color: #595959;
 }
+li {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	line-height: 24px;
+	letter-spacing: 1px;
+	color: #595959;
+}
 ::-moz-selection {color: #fff;}
 ::selection {color: #fff;}
 
@@ -1203,6 +1210,7 @@ footer .copyright {
 	background: #212121;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	text-align: center;
 }
 footer .copyright p {margin-bottom: 0; color: #ccc;}
 footer .copyright i {

@@ -14,7 +14,7 @@
 				lat: 40.760779,			// Change to your location's latitude
 				lng: -111.891047,			// Change to your location's longitude
 				scrollwheel:false,
-				zoom: 14,
+				zoom: 15,
 				zoomControl : true,
 				panControl : false,
 				streetViewControl : false,
