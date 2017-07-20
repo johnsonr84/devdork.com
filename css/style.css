@@ -1075,6 +1075,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 	-webkit-transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
     		transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
 }
+
 #contact form .form-intro {margin-bottom: 20px;}
 #contact .form-intro h4, #contact .form-intro p {text-align: left; color: #fff;}
 #contact form .form-control {
