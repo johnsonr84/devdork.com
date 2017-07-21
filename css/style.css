@@ -509,9 +509,9 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 	background-size: cover;
 	background-position: center;
 }
-.fade-slider .slider .slide-one {background-image: url("https://cdn.pixabay.com/photo/2015/09/05/20/02/coding-924920_960_720.jpg");}
-.fade-slider .slider .slide-two {background-image: url("https://cdn.pixabay.com/photo/2017/02/05/00/19/web-design-2038872_960_720.jpg");}
-.fade-slider .slider .slide-three {background-image: url("https://cdn.pixabay.com/photo/2014/10/05/17/01/man-475559_960_720.jpg");}
+.fade-slider .slider .slide-one {background-image: url("../img/coding.jpg");}
+.fade-slider .slider .slide-two {background-image: url("../img/desk.png");}
+.fade-slider .slider .slide-three {background-image: url("../img/dopple.png");}
 
 /*** 5-g - Go down arrow ***/
 #home .go-down {
