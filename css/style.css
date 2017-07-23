@@ -155,7 +155,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 .btn-custom:hover, .btn-custom.reverse {color: #fff;}
 .btn-custom.reverse:hover {background: transparent;}
 .btn-custom.light:hover {background: #fff; border: 1px solid transparent !important;}
-.btn-custom.dark:hover {background: #222; border: 1px solid transparent !important;}
+.btn-custom.dark:hover {background: #f9ca3b; border: 1px solid transparent !important;}
 .btn-custom.outline-white {color: #fff; border: 1px solid #fff;}
 
 /* End Main Rules */
