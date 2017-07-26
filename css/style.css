@@ -1,10 +1,5 @@
 /* ---------------------------------------
 
-Template Name: Prema
-Description: Responsive HTML5 / CSS3 OnePage Portfolio-Resume Template
-Version: 1.0
-Author: Ahmed Beheiry
-
 Used Fonts : Raleway & Open Sans ( Google free fonts ).
 
 =>  Table of Content  <=
@@ -155,7 +150,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 .btn-custom:hover, .btn-custom.reverse {color: #fff;}
 .btn-custom.reverse:hover {background: transparent;}
 .btn-custom.light:hover {background: #fff; border: 1px solid transparent !important;}
-.btn-custom.dark:hover {background: #f9ca3b; border: 1px solid transparent !important;}
+.btn-custom.dark:hover {background: #45cc02; border: 1px solid #fff !important;}
 .btn-custom.outline-white {color: #fff; border: 1px solid #fff;}
 
 /* End Main Rules */
@@ -954,7 +949,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 	margin-bottom: 20px;
 	letter-spacing: 1.5px;
 }
-#testimonials .carousel img {margin: auto;}
+#testimonials .carousel img {margin: auto; border: 1.5px solid #fff}
 #testimonials .carousel p.testimonial-text {
 	margin-bottom: 0;
 	letter-spacing: 1.5px;
@@ -1030,54 +1025,9 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 }
 #contact.parallax {background-attachment: fixed;}
 #contact p, #contact h2 {color: #fff;}
-#contact .call-info {overflow: hidden;}
-#contact .call-info .info-wrapper {
-	padding-top: 15px;
-	padding-bottom: 15px;
-	-webkit-transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
-    		transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
-}
-#contact .call-info, #contact .call-info i, #contact .call-info h4 {
-	position: relative;
-	color: #ddd;
-	-webkit-transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
-    		transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
-}
-#contact .call-info i {
-	display: inline-block;
-	font-size: 30px;
-	width: 60px;
-	height: 60px;
-	margin-bottom: 20px;
-	line-height: 60px;
-	border-radius: 50%;
-	color: #fff;
-	top: 50px;
-}
-#contact .call-info h4 {
-	letter-spacing: 1.5px;
-	color: #fff;
-	top: 50px;
-}
-#contact .call-info p {
-	position: relative;
-	margin-bottom: 0;
-	letter-spacing: 1px;
-	bottom: -70px;
-	opacity: 0;
-}
-#contact .call-info:hover i {background: #fff; top: 0px;}
-#contact .call-info:hover h4 {color: #fff; top: 0px;}
-#contact .call-info:hover p {
-	color: #fff;
-	bottom: 0px;
-	opacity: 1;
-	-webkit-transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
-    		transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
-}
 
-#contact form .form-intro {margin-bottom: 20px;}
-#contact .form-intro h4, #contact .form-intro p {text-align: left; color: #fff;}
+#contact form .form-intro {margin-bottom: 20px; text-align: center;}
+#contact .form-intro h4, #contact .form-intro p, #contact .form-intro separator {text-align: center; color: #fff; justify-content: center;}
 #contact form .form-control {
 	border: none;
 	letter-spacing: 2px;
@@ -1098,11 +1048,13 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 	height: auto;
 	padding: 15px;
 	box-shadow: none;
+	width: 50%;
 }
 #contact form textarea {
 	resize: none;
 	padding: 15px;
 	box-shadow: none;
+	width: 50%;
 }
 #contact form #submit {
 	margin: 0px;
@@ -1110,6 +1062,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 	color: #fff;
 	border-color: #fff;
 	padding: 15px;
+	width: 50%;
 }
 #contact .form-response {
 	color: #fff;
@@ -1296,6 +1249,7 @@ footer .copyright i {
 }
 #toTop:hover {
 	opacity: 1;
+	border-radius: 50%;
 	box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.16), 0px 4px 12px 0px rgba(0,0,0,0.15);
 }
 

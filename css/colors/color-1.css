@@ -1,51 +1,51 @@
 /* Main Rules */
-.separator {background: #f9ca3b;}
-.tooltip-inner {background-color: #f9ca3b;}
-.tooltip.top .tooltip-arrow {border-top-color: #f9ca3b;}
-::-moz-selection {background: #f9ca3b;}
-::selection {background: #f9ca3b;}
-.btn-custom {border: 1px solid #f9ca3b;}
-.btn-custom:hover {background: #f9ca3b;}
-.btn-custom.reverse {background: #f9ca3b;}
-.btn-custom.reverse:hover {border: 1px solid #f9ca3b;}
-.btn-custom.light:hover {color: #f9ca3b !important;}
+.separator {background: #45cc02;}
+.tooltip-inner {background-color: #7b7c7c;}
+.tooltip.top .tooltip-arrow {border-top-color: #7b7c7c;}
+::-moz-selection {background: #45cc02;}
+::selection {background: #45cc02;}
+.btn-custom {border: 1px solid #45cc02;}
+.btn-custom:hover {background: #45cc02;}
+.btn-custom.reverse {background: #7b7c7c;}
+.btn-custom.reverse:hover {border: 1px solid #45cc02;}
+.btn-custom.light:hover {color: #45cc02 !important;}
 
 /* Color-Box Switch */
-.color-switcher h6 {background: #f9ca3b;}
-.color-switcher .switcher-btn {background: #f9ca3b;}
-.color-switcher .map-styles li a:hover {background: #f9ca3b;}
+.color-switcher h6 {background: #45cc02;}
+.color-switcher .switcher-btn {background: #45cc02;}
+.color-switcher .map-styles li a:hover {background: #45cc02;}
 
 /* Home Section */
-#home .navbar span.colored-brand {background: #f9ca3b;}
-#home .navbar .nav>li>a:focus, #home .navbar .nav>li>a:hover {color: #f9ca3b;}
-#home .navbar.scrolled .navbar-brand {color: #f9ca3b;}
-#home .navbar.scrolled .navbar-toggle .icon-bar {background-color: #f9ca3b;}
-#home .navbar.scrolled .nav .active a {background: #f9ca3b;}
-.hero-content-wrapper .hero-content span.dot {background: #f9ca3b;}
-#home .go-down:hover {background: #f9ca3b; border-color: #f9ca3b;}
+#home .navbar span.colored-brand {background: #45cc02; border: 1px solid #fff}
+#home .navbar .nav>li>a:focus, #home .navbar .nav>li>a:hover {color: #45cc02;}
+#home .navbar.scrolled .navbar-brand {color: #7b7c7c;}
+#home .navbar.scrolled .navbar-toggle .icon-bar {background-color: #45cc02;}
+#home .navbar.scrolled .nav .active a {background: #dddddd;}
+.hero-content-wrapper .hero-content span.dot {background: #45cc02;}
+#home .go-down:hover {background: #7b7c7c; border-color: #45cc02;}
 
 /* About Section */
-#about .info-tabs .nav-tabs>li>a {background: #7b7c7c;}
+#about .info-tabs .nav-tabs>li>a {background: #dddddd;}
 #about .info-tabs .nav-tabs>li.active>a,
 #about .info-tabs .nav-tabs>li.active>a:focus,
 #about .info-tabs .nav-tabs>li.active>a:hover,
-#about .info-tabs .nav-tabs>li>a:hover {border-color: #f9ca3b;}
-#about .info-tabs .tab-content {border: 1px solid #f9ca3b;}
+#about .info-tabs .nav-tabs>li>a:hover {border-color: #7b7c7c;}
+#about .info-tabs .tab-content {border: 1px solid #7b7c7c;}
 
 /* Ready Section */
 #ready {background:#7b7c7c;}
 
 /* Services Section */
-#services .service i:after {box-shadow: 0px 0px 0px 4px #f9ca3b;}
-#services .service:hover i {background: #f9ca3b;}
+#services .service i:after {box-shadow: 0px 0px 0px 4px #45cc02;}
+#services .service:hover i {background: #7b7c7c;}
 
 /* Skills Section */
-#skills .skill .chart span.percent {color: #f9ca3b;}
+#skills .skill .chart span.percent {color: #ffe900;}
 
 /* Testimonials Section */
-#testimonials .carousel .carousel-indicators li.active {background: #f9ca3b;}
-#testimonials .carousel .carousel-control {border: 1px solid #f9ca3b;}
-#testimonials .carousel .carousel-control:hover {background: #f9ca3b;}
+#testimonials .carousel .carousel-indicators li.active {background: #45cc02;}
+#testimonials .carousel .carousel-control {border: 1px solid #45cc02;}
+#testimonials .carousel .carousel-control:hover {background: #7b7c7c;}
 
 /* Experiences Section */
 #experiences .timeline .event .event-left i {color: #7b7c7c;}
@@ -54,19 +54,16 @@
 #experiences .timeline .event .event-right::after {border: 2px solid #7b7c7c;}
 
 /* Contact Section */
-#contact .call-info i {background: #f9ca3b;}
-#contact .call-info:hover .info-wrapper {background: #f9ca3b;}
-#contact .call-info:hover i {color: #f9ca3b;}
-#contact form #submit:hover {background: #f9ca3b; border-color: #f9ca3b;}
+#contact form #submit:hover {background: #fff !important; border-color: #fff !important; color: #000;}
 
 /* To Top Button */
-#toTop {background: #f9ca3b;}
-
+#toTop {background: #7b7c7c; border-color: #7b7c7c;}
+#toTop:hover {background: #45cc02; border-color: #45cc02;}
 /* -------------------------------------
               Media Queries
 * ------------------------------------- */
 @media (max-width: 991px) {
 	/* Adjusting the navbar */
-	#home .navbar .nav .active a, #home .navbar .navbar-brand {color: #f9ca3b;}
-	#home .navbar .navbar-toggle .icon-bar {background: #f9ca3b;}
+	#home .navbar .nav .active a, #home .navbar .navbar-brand {color: #45cc02;}
+	#home .navbar .navbar-toggle .icon-bar {background: #45cc02;}
 }

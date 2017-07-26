@@ -1,11 +1,5 @@
-/* global $, alert, console*/
-
 /* ---------------------------------------
 
-Template Name: Prema
-Description: Responsive HTML5 / CSS3 OnePage Portfolio-Resume Template
-Version: 1.0
-Author: Ahmed Beheiry
 
 =>  Table of Content  <=
 
