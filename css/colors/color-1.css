@@ -20,12 +20,12 @@
 #home .navbar .nav>li>a:focus, #home .navbar .nav>li>a:hover {color: #45cc02;}
 #home .navbar.scrolled .navbar-brand {color: #7b7c7c;}
 #home .navbar.scrolled .navbar-toggle .icon-bar {background-color: #45cc02;}
-#home .navbar.scrolled .nav .active a {background: #dddddd;}
+#home .navbar.scrolled .nav .active a {background: #adadad;}
 .hero-content-wrapper .hero-content span.dot {background: #45cc02;}
 #home .go-down:hover {background: #7b7c7c; border-color: #45cc02;}
 
 /* About Section */
-#about .info-tabs .nav-tabs>li>a {background: #dddddd;}
+#about .info-tabs .nav-tabs>li>a {background: #adadad;}
 #about .info-tabs .nav-tabs>li.active>a,
 #about .info-tabs .nav-tabs>li.active>a:focus,
 #about .info-tabs .nav-tabs>li.active>a:hover,

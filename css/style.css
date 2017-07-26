@@ -613,6 +613,19 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 * ------------------------------------- */
 #ready h3 {color: #fff; margin-bottom: 40px;}
 #ready a {color: #fff; margin: 0px 10px 40px;}
+#ready {
+	background: #333 url("../img/skills.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	padding: 120px 0px 60px;
+}
+#ready.parallax {background-attachment: fixed;}
+#ready h3, #ready p, #ready a {color: #fff;}
+#ready p {margin-top: 30px;}
+#ready a {margin-bottom: 60px;}
+
 
 /* End Ready Section */
 
@@ -627,6 +640,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 	display: inline-block;
 	margin-bottom: 20px;
 }
+
 /* End Process Section */
 
 
@@ -996,6 +1010,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 	-webkit-transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
     		transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
 }
+
 #clients .client img {
 	filter: url("data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /></filter></svg>#filter");
 	-webkit-filter: grayscale(1);
@@ -1042,6 +1057,12 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 	background: rgba(139, 145, 150, 0.42);
 	color: #fff;
 }
+
+#contact form .input-group {
+	margin-left: 30%;
+}
+
+
 #contact form input {
 	position: relative;
 	z-index: 1;
@@ -1049,6 +1070,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 	padding: 15px;
 	box-shadow: none;
 	width: 50%;
+
 }
 #contact form textarea {
 	resize: none;
@@ -1061,14 +1083,16 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 	background: transparent;
 	color: #fff;
 	border-color: #fff;
-	padding: 15px;
-	width: 50%;
+	padding: 10px;
+	width: 415px;
+	margin-left: 30.25%;
 }
 #contact .form-response {
 	color: #fff;
 	font-size: 18px;
 	letter-spacing: 2px;
 	margin-top: 20px;
+	margin-left: 25%;
 	display: none;
 }
 #contact .social-wrapper {margin-top: 80px; margin-bottom: 40px;}
